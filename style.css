@@ -648,7 +648,7 @@ h1 {
     
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 500px) {
 
     .title-port {
         margin: 10px 0 ;
@@ -662,7 +662,7 @@ h1 {
     }
 }
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 340px){
 
     .item {
         height: 380px;
@@ -1049,5 +1049,5 @@ textarea:focus {
 }
 .form-group:nth-child(4){
     margin-bottom: 25px;
-    justify-content: first baseline;
+    justify-content: flex-start;
 }
