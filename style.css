@@ -190,7 +190,7 @@ body {
 /*-------------- Home -------------*/
 
 .home {
-    background: url(/ressources/accueil.jpg);
+    background: url(ressources/accueil.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -885,6 +885,7 @@ h1 {
 .title-section-bloc {
     font-family: 'Abril Fatface', sans-serif;
     font-size: 25px;
+    padding-bottom: 10px;
 }
 
 /* Media Section Exp */
@@ -902,7 +903,7 @@ h1 {
     }
     .bloc {
         height: 250px;
-        margin-bottom: 3705px;
+        margin-bottom: 37.5px;
     }
     .bar-vertical {
         margin-left: 60px;
@@ -991,4 +992,62 @@ h1 {
     font-weight: 400;
     margin-bottom: 50px;
     padding: 70px 0 0 300px;
+}
+.section-contact h2 strong {
+    font-weight: 900;
+}
+.container-form {
+    margin: 0 auto;
+    width: 70%;
+    padding-left: 300px;
+}
+.form-group {
+    position: relative;
+    display: flex;
+    margin-bottom: 45px;
+}
+.form-group label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #aaa;
+    font-size: 20px;
+    transition: 0.5s ease-out;
+}
+.form-group input {
+    display: block;
+    font-size: 20px;
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+    background: none;
+    outline: none;
+    border-bottom: 3px solid #aaa;
+    color: #666;
+    transition: ease-out;
+}
+textarea {
+    width: 100%;
+    height: 200px;
+    border: none;
+    border: 3px solid #aaa;
+    border-radius: 3px;
+    padding: 5px;
+    resize: none;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s all ease-out;
+    background: #f1f1f1;
+}
+textarea::placeholder {
+    font-size: 20px;
+    opacity: 0.5;
+}
+textarea:focus {
+    border-color: #8b97d7;
+}
+.form-group:nth-child(4){
+    margin-bottom: 25px;
+    justify-content: first baseline;
 }
