@@ -68,7 +68,7 @@ body {
     height: 150px;
     border-radius: 50%;
     position: relative;
-    box-shadow: 26px 26px 53px #292929,
+    box-shadow: 26px 26px 53px #000,
                 -26px -26px 53px #3d3d3d;
 }
 .circle-face img {
