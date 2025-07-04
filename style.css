@@ -829,7 +829,7 @@ h1 {
     justify-content: center;
 }
 .bar-vertical {
-    height: 300px;
+    height: auto;
     width: 5px;
     background: #000;
     display: flex;
@@ -855,7 +855,6 @@ h1 {
 .flex-cont-bloc-exp {
     width: 800px;
     flex-shrink: 1;
-    height: 300px;
     position: relative;
 }
 .bloc {
@@ -910,9 +909,6 @@ h1 {
 }
 
 @media screen and (max-width: 950px) {
-    .bar-vertical {
-        height: 300px;
-    }
     .bloc {
         height: 250px;
         margin-bottom: 37.5px;
