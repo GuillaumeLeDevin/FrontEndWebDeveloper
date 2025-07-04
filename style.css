@@ -639,6 +639,9 @@ h1 {
     transition: transform 0.3s 0.1s linear;
     transform: translateX(400px);
 }
+.reversed-email {
+    color:red!important;
+}
 
 /* Media Portfolio  */
 
@@ -1089,7 +1092,7 @@ textarea:focus {
     .container-form {
         padding-left: 0;
     }
-    .form-group:nth-child(4){
+    .form-group:nth-child(5){
         justify-content: center;
     }
 }
@@ -1117,6 +1120,6 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 30px 50px;
+        padding: 5px 50px;
     }
 }
