@@ -172,6 +172,22 @@ const scene4 = new ScrollMagic.Scene({
 // .addIndicators()
 .addTo(controller)
 
+const itemPortfolio4 = document.querySelectorAll('.vague4')
+
+const tlPortfolio4 = new TimelineMax();
+
+tlPortfolio4
+.staggerFrom(itemPortfolio3, 1, {opacity:0}, 0.2, '-=0.5')
+
+const scene4 = new ScrollMagic.Scene({
+    triggerElement: itemPortfolio2,
+    triggerHook: 0.2,
+    reverse: false
+})
+.setTween(tlPortfolio4)
+// .addIndicators()
+.addTo(controller)
+
 // Animation Range
 
 const sectionAbility = document.querySelector('.section-range');
