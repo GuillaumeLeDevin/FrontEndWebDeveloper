@@ -179,7 +179,7 @@ const tlPortfolio4 = new TimelineMax();
 tlPortfolio4
 .staggerFrom(itemPortfolio3, 1, {opacity:0}, 0.2, '-=0.5')
 
-const scene4 = new ScrollMagic.Scene({
+const scene6 = new ScrollMagic.Scene({
     triggerElement: itemPortfolio2,
     triggerHook: 0.2,
     reverse: false
