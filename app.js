@@ -164,7 +164,7 @@ tlPortfolio3
 .staggerFrom(itemPortfolio3, 1, {opacity:0}, 0.2, '-=0.5')
 
 const scene4 = new ScrollMagic.Scene({
-    triggerElement: itemPortfolio2,
+    triggerElement: itemPortfolio3,
     triggerHook: 0.2,
     reverse: false
 })
@@ -177,7 +177,7 @@ const itemPortfolio4 = document.querySelectorAll('.vague4')
 const tlPortfolio4 = new TimelineMax();
 
 tlPortfolio4
-.staggerFrom(itemPortfolio3, 1, {opacity:0}, 0.2, '-=0.5')
+.staggerFrom(itemPortfolio4, 1, {opacity:0}, 0.2, '-=0.5')
 
 const scene6 = new ScrollMagic.Scene({
     triggerElement: itemPortfolio2,
