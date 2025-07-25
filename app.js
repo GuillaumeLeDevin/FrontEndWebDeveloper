@@ -180,7 +180,7 @@ tlPortfolio4
 .staggerFrom(itemPortfolio4, 1, {opacity:0}, 0.2, '-=0.5')
 
 const scene6 = new ScrollMagic.Scene({
-    triggerElement: itemPortfolio2,
+    triggerElement: itemPortfolio4,
     triggerHook: 0.2,
     reverse: false
 })
