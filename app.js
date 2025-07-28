@@ -139,7 +139,7 @@ const scene2 = new ScrollMagic.Scene({
 .setTween(tlPortfolio)
 // .addIndicators()
 .addTo(controller)
-
+/* --------------------------------------------------------------- */
 const itemPortfolio2 = document.querySelectorAll('.vague2')
 
 const tlPortfolio2 = new TimelineMax();
@@ -155,7 +155,7 @@ const scene3 = new ScrollMagic.Scene({
 .setTween(tlPortfolio2)
 // .addIndicators()
 .addTo(controller)
-
+/* --------------------------------------------------------------- */
 const itemPortfolio3 = document.querySelectorAll('.vague3')
 
 const tlPortfolio3 = new TimelineMax();
@@ -171,7 +171,7 @@ const scene4 = new ScrollMagic.Scene({
 .setTween(tlPortfolio3)
 // .addIndicators()
 .addTo(controller)
-
+/* --------------------------------------------------------------- */
 const itemPortfolio4 = document.querySelectorAll('.vague4')
 
 const tlPortfolio4 = new TimelineMax();
