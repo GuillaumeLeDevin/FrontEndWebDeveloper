@@ -11,6 +11,13 @@ body {
     background: #f1f1f1;
 }
 
+.tronque-2-lignes {
+  display: -webkit-box;          /* nécessaire pour le support WebKit */
+  -webkit-box-orient: vertical;  /* direction du texte */
+  -webkit-line-clamp: 2;         /* nombre de lignes max */
+  overflow: hidden;              /* masque le reste */
+}
+
 /*---------------- Navigation ---------------*/
 .nav-left {
     width: 300px;
